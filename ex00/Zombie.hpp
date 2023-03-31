@@ -6,7 +6,7 @@
 /*   By: jmanet <jmanet@student.42nice.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/31 17:53:25 by jmanet            #+#    #+#             */
-/*   Updated: 2023/03/31 18:24:03 by jmanet           ###   ########.fr       */
+/*   Updated: 2023/03/31 20:08:34 by jmanet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Zombie {
 		Zombie(std::string name);
 		~Zombie();
 
-		void	announce(void);
+		void	announce(void) const;
 };
 
 #endif
