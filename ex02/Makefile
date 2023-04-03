@@ -6,7 +6,7 @@
 #    By: jmanet <jmanet@student.42nice.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/31 20:50:13 by jmanet            #+#    #+#              #
-#    Updated: 2023/03/31 20:50:29 by jmanet           ###   ########.fr        #
+#    Updated: 2023/04/03 09:36:29 by jmanet           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,3 +33,5 @@ clean :
 
 fclean : clean
 	rm -f ${NAME}
+
+re : fclean all
