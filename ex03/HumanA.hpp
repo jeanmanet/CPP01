@@ -6,9 +6,12 @@
 /*   By: jmanet <jmanet@student.42nice.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 09:59:27 by jmanet            #+#    #+#             */
-/*   Updated: 2023/04/03 10:48:23 by jmanet           ###   ########.fr       */
+/*   Updated: 2023/04/04 09:16:22 by jmanet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+# ifndef HUMANA_HPP
+#define HUMANA_HPP
 
 #include <iostream>
 #include "Weapon.hpp"
@@ -24,3 +27,5 @@ public:
 
 	void	attack();
 };
+
+#endif
